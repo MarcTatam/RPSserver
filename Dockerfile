@@ -11,4 +11,4 @@ WORKDIR /usr/src/RPSserver
 RUN javac server/main.java
 
 # Run the program output from the previous step
-CMD java server.main
+CMD java server.main 5000
