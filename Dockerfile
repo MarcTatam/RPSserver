@@ -10,5 +10,7 @@ WORKDIR /usr/src/RPSserver
 # Compile
 RUN javac server/main.java
 
+EXPOSE 5000
+
 # Run the program output from the previous step
 CMD java server.main 5000
